@@ -54,3 +54,33 @@ main {
 .text {
     grid-column: 2 / 3;
 }
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-title {
+    font-size: 8rem;
+    text-align: center;
+    color: orangered;
+}
+
+.hero-subtitle {
+    font-size: 2.4rem;
+    text-align: center;
+    color: orangered;
+}
+
+.author {
+    font-size: 2rem;
+    font-family: Raleway, sans-serif;
+}
+
+.author-name a:hover {
+    background-color: #306203;
+}
+
+.publish-date {
+    color: rgba(255, 255, 255, 0.5);
+}
